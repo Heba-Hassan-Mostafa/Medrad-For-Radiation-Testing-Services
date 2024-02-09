@@ -1,0 +1,102 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: cairo, sans-serif ;
+  font-display: swap;
+}
+.navbar-nav .nav-link ,p,.addCommentBtn {
+    font-family: cairo !important;
+    font-display: swap;
+}
+.social {
+  direction: ltr !important;
+}
+.servCard h5 {
+  margin: 12px;
+  text-align: start;
+}
+.servCard p {
+  text-align: start;
+}
+.AboutContent {
+  text-align: start;
+}
+.AboutContent svg {
+  display: none;
+}
+.AboutContent p {
+  margin-top: 2px !important;
+}
+.subscribeSection .row {
+  direction: ltr;
+}
+.testimonial {
+  direction: ltr;
+}
+.tesCard p {
+  text-align: center;
+  margin-left: 10px;
+}
+.getQuote {
+  direction: ltr;
+}
+.managmentTeam {
+  direction: ltr;
+}
+.contactUS {
+  direction: ltr;
+}
+footer {
+  direction: ltr;
+}
+.modal-content {
+  direction: ltr;
+}
+.iti__country-list {
+  direction: ltr;
+  left: 0;
+}
+pre {
+  white-space: pre-wrap;
+}
+.aboutPageText svg {
+  display: none;
+}
+.blogCard .card .card-content h3 {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.blogCard .card .card-content .published_date {
+  left: inherit;
+  right: 10px;
+}
+.visionMissionCards .statementName {
+  left: inherit;
+  right: 0;
+  border-radius: 25px 0px 0px 25px;
+}
+.servCard h3 ,.courses_CardImg h3 {
+    margin-right: 15px;
+    margin-left: inherit;
+}
+/* media */
+@media (max-width: 992px) {
+  .changeLangBtn {
+    margin: 2px 0 10px 40px !important;
+  }
+}
+@media (max-width: 425px) {
+  .AboutContent h3 {
+    margin: auto !important;
+  }
+  .subscribeForm h5 {
+    font-size: 24px !important;
+  }
+}
+

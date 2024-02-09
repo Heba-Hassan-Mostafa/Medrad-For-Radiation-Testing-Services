@@ -1,0 +1,347 @@
+@media (min-width: 1200px) {
+  .services_categories {
+    justify-content: space-around;
+  }
+  .categoryCard {
+    max-width: 22%;
+  }
+  .coursesImg img {
+    height: 500px;
+  }
+  .galleryImg img {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1750px){
+    .nav-img-logo{
+      width:356px;
+      height:105px;
+  }
+  .footerLogo .wLogo {
+      width:416px;
+      height:123px;
+  }
+  .aboutImgCard .staticImg {
+      width:448px;
+      height:448px;
+  }
+  .subscribeSvg img{
+      width:477px;
+      height:477px;
+  }
+  .imgQuote img{
+      width:526px;
+      height:351px;
+  }
+  .detailsSer .detailsSerImg{
+         width: 425px!important;
+    height: 280px!important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  .coursesImg img {
+    height: 500px;
+  }
+  .galleryImg img {
+    height: 500px;
+  }
+  
+}
+@media (max-width: 992px) {
+  .globalQuote {
+    flex-direction: column;
+    width: fit-content;
+    display: flex;
+    margin: 10px 0;
+  }
+  .navGetQuote {
+    margin-left: 0;
+  }
+  .navbar-nav {
+    background: #ffffffeb;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+  }
+  .navbar-nav .nav-link {
+    border-bottom: 1px solid;
+  }
+  .globalQuote .nav-link {
+    border-bottom: none;
+  }
+  .aboutUsSection .row {
+    flex-direction: column-reverse;
+  }
+  .inputParent {
+    width: 100%;
+  }
+  .subscribeSvg img {
+    max-width: 100%;
+  }
+  .subscribeSection {
+    margin-top: 6rem;
+  }
+  .columReverse {
+    flex-direction: column-reverse;
+  }
+  .contactUS .contactCard {
+    margin: 12px 10px;
+  }
+  .aboutPageImg {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .services_categories {
+    justify-content: center;
+  }
+  .categoryCard {
+    max-width: 90%;
+    margin: 12px auto;
+  }
+  .categoriesBanner {
+    height: auto !important;
+  }
+  .studentGirlImg {
+    display: none;
+  }
+  .contactFormBox {
+    width: 100%;
+    padding: 10px !important;
+  }
+  .coursesImg img {
+    height: 500px;
+  }
+  .galleryImg img {
+    height: 500px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .relatedCardBox h6 {
+    margin-top: 12px;
+  }
+  .changeLangBtn {
+    margin: 2px 0 10px -40px;
+  }
+  .navbar-nav .dropdown-menu {
+    position: absolute!important;
+}
+}
+@media (max-width: 767px) {
+  .navbar-nav {
+    width: 80%;
+  }
+  .navbar-brand {
+    width: 40%;
+  }
+  .defult-img .titleText {
+    left: 50%;
+  }
+  .defult-img .titleText h1 {
+    font-size: 55px;
+  }
+  .defult-img .titleText p {
+    font-size: 18px;
+  }
+  .defult-img .btnQuote {
+    font-size: 14px;
+  }
+  .socialMediaIcon a {
+    font-size: 18px;
+  }
+  .socalLine {
+    padding-top: 0;
+  }
+  .defult-img picture img {
+    height: 450px;
+  }
+  .sliderControl .carousel-item img {
+    height: auto;
+  }
+  .wLogo {
+    max-width: 75% !important;
+  }
+  .footerText {
+    font-size: 14px;
+    margin: 20px 0;
+  }
+  .copyRight {
+    font-size: 12px;
+  }
+  .aboutImgResponsive img {
+    height: auto !important;
+  }
+  .detailsSerImg {
+    width: auto;
+    height: auto !important;
+  }
+  .contactBackground {
+    height: 370px;
+  }
+  .contactUsPage .contactImg {
+    height: 250px;
+  }
+  .contact_text {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .contactFormBox .quoteInput input {
+    margin-right: 0;
+  }
+  .contactUS .contactCard{
+    width:80%;
+  }
+  .blog .contactBackground {
+    height: 430px;
+  }
+  .blog .contact_text h1 {
+    display: block;
+    margin: auto;
+  }
+  .blogImg img {
+    height: 310px;
+    padding-top: 12px;
+  }
+  .galleryImg img {
+    height: 367px;
+    padding-top: 10px;
+    margin-top: 4px;
+  }
+  .quoteInputModal {
+    padding: 5px;
+  }
+  .quoteInputModal input {
+    margin-right: 0;
+  }
+  .ulCategoriesList {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  .ulCategoriesList li {
+    border-bottom: 1px solid var(--secoundry-color);
+    padding-bottom: 5px;
+  }
+  .ulCategoriesList li:last-child {
+    border-bottom: none;
+  }
+  .student h1 {
+    margin: 2px auto;
+  }
+  .coursesImg img {
+    height: 310px;
+    margin-top: 0;
+  }
+  .testimonial h5 {
+    font-size: 28px;
+  }
+  .testimonial .ourClinetsP{
+    font-size: 14px;
+  }
+  .relatedCardBox {
+    width: 85%;
+    margin:10px auto;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px){
+    .quoteInputModal{
+        padding: 0px 20px;
+    }
+    .iti{
+        margin-left: 0;
+    }
+    .iti #phone_number {
+        width: 100%;
+      }
+    .quoteFooterForm {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 425px) {
+  .navbar-brand {
+    width: 70%;
+  }
+  .defult-img picture img {
+    height: 400px;
+  }
+  .aboutImgCard .staticImg {
+    max-width: 90%;
+  }
+  .scoundImg {
+    top: 45%;
+  }
+  .scoundImg img {
+    max-width: 95%;
+    height: 185px;
+    width: 190px;
+  }
+  .quoteInput {
+    margin: 5px;
+  }
+  .servCard h5 {
+    font-size: 14px;
+  }
+  .shareSocial {
+    justify-content: start;
+  }
+  .blog .contactBackground {
+    height: 370px;
+  }
+  .blogImg img {
+    height: 314px;
+  }
+  .coursesImg img {
+    height: 315px;
+  }
+  .galleryImg img {
+    height: 309px;
+
+  }
+  .visionCard, .missionCard{
+    width: 85%;
+  }
+  .coursesCard .card{
+    width: 85%;
+  }
+  .blogCard .card {
+    width: 85%;
+  }
+  .iti {
+    margin-left: 0px;
+  }
+  .iti #phone_number {
+    width: 100%;
+  }
+  .iti__country-list {
+    width: 80%!important;
+  }
+  .quoteFooterForm input{
+     margin: 5px 0;
+  }
+  .quoteFooterForm input:last-child{
+    margin: 0;
+  }
+  .inputFlagQuote .iti {
+    margin:6px 0;
+  }
+  .inputFlagQuote{
+    padding: 0;
+}
+}
+@media (max-width: 375px) {
+  .blogImg img {
+    height: 315px;
+  }
+  .galleryImg img {
+    height: 310px;
+  }
+}
